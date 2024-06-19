@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, Image, FlatList } from 'react-native';
 const FeaturedJobs = () => {
     const jobs = [
-        { id: '1', title: 'CEO', company: 'Facebook', salary: "$340,00", location: "Accra, Ghana", image: require('../../assets/facebook.png') },
+        { id: '1', title: 'CEO', company: 'Facebook', salary: "$340,00", location: "Accra, Ghana", image: require('../../assets/facebook.png'),  },
         { id: '2', title: 'Marketing Director', company: 'Google', salary: "$230,00", location: "Osu, Ghana", image: require('../../assets/google.png') },
         { id: '3', title: 'Apple Developer', company: 'Apple', salary: "$480,00", location: "Accra, Ghana", image: require('../../assets/apple.png') },
         { id: '4', title: 'Data Analyst', company: 'Facebook', salary: "$700,00", location: "Accra, Ghana", image: require('../../assets/facebook.png') },

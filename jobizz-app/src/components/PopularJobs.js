@@ -4,16 +4,16 @@ import { Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 const PopularJobs = () => {
 
   const jobsData = [
-    { id: '1', title: 'Jr Executive', company: 'Burger King', salary: "$180,00/y", location: "Accra, Ghana", image: require('../../assets/burger-king.png') },
-    { id: '2', title: 'Product Manager', company: 'Beats', salary: "$160,00/y", location: "Osu, Ghana", image: require('../../assets/beats.png') },
-   // { id: '3', title: 'Sales Manager', company: 'Google', salary: "$150,00/y", location: "Osu, Ghana", image: require('../../assets/google.png') },
-    { id: '4', title: 'Google Dev OPs', company: 'Google', salary: "$190,00/y", location: "Osu, Ghana", image: require('../../assets/google.png') },
-    { id: '5', title: 'Apple Developer', company: 'Apple', salary: "$170,00/y", location: "Accra, Ghana", image: require('../../assets/apple.png') },
-    { id: '6', title: 'Sales Manager', company: 'Burger King', salary: "$140,00/y", location: "Accra, Ghana", image: require('../../assets/burger-king.png') },
-    { id: '7', title: 'Apple Sn Developer', company: 'Apple', salary: "$170,00/y", location: "Accra, Ghana", image: require('../../assets/apple.png') },
-    { id: '8', title: 'Apple Jn Developer', company: 'Apple', salary: "$170,00/y", location: "Accra, Ghana", image: require('../../assets/apple.png') },
+    { id: '1', title: ' CEO', company: 'Burger King', salary: "$180,000/y", location: "Accra, Ghana", image: require('../../assets/burger-king.png') },
+    { id: '2', title: 'Executive', company: 'Beats', salary: "$160,000/y", location: "Osu, Ghana", image: require('../../assets/beats.png') },
+    { id: '3', title: 'Data Manager', company: 'Google', salary: "$150,000/y", location: "Osu, Ghana", image: require('../../assets/google.png') },
+    { id: '4', title: 'Google Dev OPs', company: 'Google', salary: "$190,000/y", location: "Osu, Ghana", image: require('../../assets/google.png') },
+    { id: '5', title: 'Apple Marketer', company: 'Apple', salary: "$170,000/y", location: "Accra, Ghana", image: require('../../assets/apple.png') },
+    { id: '6', title: 'Sales Manager', company: 'Burger King', salary: "$140,000/y", location: "Accra, Ghana", image: require('../../assets/burger-king.png') },
+    { id: '7', title: 'Apple Chief Developer', company: 'Apple', salary: "$570,000/y", location: "Accra, Ghana", image: require('../../assets/apple.png') },
+    { id: '8', title: 'Apple tester', company: 'Apple', salary: "$170,000/y", location: "Accra, Ghana", image: require('../../assets/apple.png') },
   ];
-  
+
   return (
     <View style={styles.container}>
         <View style={styles.popularJobSection}>
@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
   popularJobTitle: {
     flexDirection: 'row',
     justifyContent: 'space-evenly',
+    
     flex: 1,
   },
   title: {
