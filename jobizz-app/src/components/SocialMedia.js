@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Image, TouchableOpacity } from 'react-native';
+
 const SocialMedia = ({source}) => {
     return(
         <TouchableOpacity style={styles.button}>
