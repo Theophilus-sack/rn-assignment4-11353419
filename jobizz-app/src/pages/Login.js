@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import InputField from '../components/InputField';
 import SocialMedia from '../components/SocialMedia';
 
-const Login = () => {
+const Login = ({navigation}) => {
     return(
         <View style={styles.container}>
             <Header/>
@@ -11,7 +11,7 @@ const Login = () => {
                 <InputField placeholder={"Name"}/>
                 <InputField placeholder={"Email"}/>
                 
-                <TouchableOpacity style={styles.loginButton} >
+                <TouchableOpacity style={styles.loginButton} onPress={() => navigation.navigate("Home")} >
                 <Text style={styles.loginButtonText}>Log in</Text>
                 </TouchableOpacity>
             </View>
